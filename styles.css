@@ -1,0 +1,16 @@
+#hangword {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hangletter {
+  height: 50px;
+  width: 40px;
+  border-bottom: 2px solid black;
+  padding: 10px;
+  box-shadow: 0 0 30px lightgray;
+}
+
+/*# sourceMappingURL=styles.css.map */

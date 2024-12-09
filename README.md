@@ -2,8 +2,7 @@
 
 ## Requirements / Purpose
 
--   MVP:
-
+- MVP:
 - A game should start with a word being randomly selected.
 - A representation of the word made up of underscore (_) characters should display on the screen.
 - Create a user interface made up of buttons representing all 26 letters of the alphabet.
@@ -15,8 +14,8 @@
 - There should be some functionality to play again.
 
 
--   Purpose of project: 2nd Nology project, consolidation of Javascript concepts
--   JavaScript, SCSS/Sass, HTML
+  Purpose of project: 2nd Nology project, consolidation of Javascript concepts
+  JavaScript, SCSS/Sass, HTML
 
 ---
 

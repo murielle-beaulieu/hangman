@@ -12,11 +12,11 @@
 - The game should keep track of which letters have been 'guessed' already.
 - The game should provide a win or loss message depending on the outcome
 - There should be some functionality to play again.
+---
 
-
-  Purpose of project: 2nd Nology project, consolidation of Javascript concepts
-  JavaScript, SCSS/Sass, HTML
-
+  Purpose of project: 2nd Nology project, consolidation of Javascript concepts. 
+  Using JavaScript, SCSS/Sass, HTML.
+  
 ---
 
 ## Build Steps
@@ -48,7 +48,7 @@
 ## Future Goals
 
 - Input via keyboard, as well as the keyboard buttons
-
+  
 ---
 
 ## Change logs

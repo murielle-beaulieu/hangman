@@ -4,15 +4,16 @@
 
 -   MVP:
 
-> A game should start with a word being randomly selected.
-> A representation of the word made up of underscore (_) characters should display on the screen.
-> Create a user interface made up of buttons representing all 26 letters of the alphabet.
-> Clicking a button should register its letter as a 'guess'
-> If the letter clicked is in the word each underscore corresponding to that letter should be replaced with the letter.
-> If the letter is not in the word, an additional element to the hangman diagram should be added.
-> The game should keep track of which letters have been 'guessed' already.
-> The game should provide a win or loss message depending on the outcome
-> There should be some functionality to play again.
+- A game should start with a word being randomly selected.
+- A representation of the word made up of underscore (_) characters should display on the screen.
+- Create a user interface made up of buttons representing all 26 letters of the alphabet.
+- Clicking a button should register its letter as a 'guess'
+- If the letter clicked is in the word each underscore corresponding to that letter should be replaced with the letter.
+- If the letter is not in the word, an additional element to the hangman diagram should be added.
+- The game should keep track of which letters have been 'guessed' already.
+- The game should provide a win or loss message depending on the outcome
+- There should be some functionality to play again.
+
 
 -   Purpose of project: 2nd Nology project, consolidation of Javascript concepts
 -   JavaScript, SCSS/Sass, HTML

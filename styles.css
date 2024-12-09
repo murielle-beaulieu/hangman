@@ -1,16 +1,130 @@
+button {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 24px;
+}
+button:hover {
+  transition: 0.3s;
+  font-weight: bold;
+  transform: scale(1.15);
+}
+button:disabled {
+  background-color: grey;
+  transition: 0;
+  font-weight: bold;
+  transform: scale(0);
+}
+
+#play {
+  font-size: 16px;
+  padding: 16px 24px;
+  border-radius: 10%;
+  border-style: none;
+  background-color: rgb(45, 141, 21);
+}
+
+.again {
+  font-size: 16px;
+  padding: 16px 24px;
+  border-radius: 10%;
+  border-style: none;
+  background-color: rgb(71, 169, 255);
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  height: 600px;
+  width: 100%;
+}
+
+#start-game {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #hangword {
-  height: 200px;
+  height: 100px;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
 
 .hangletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50px;
   width: 40px;
   border-bottom: 2px solid black;
   padding: 10px;
   box-shadow: 0 0 30px lightgray;
+}
+
+#keyboard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 40%;
+  gap: 10px;
+}
+
+.keys {
+  height: 28px;
+  width: 28px;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#result {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Montserrat Underline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

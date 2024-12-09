@@ -1,0 +1,7 @@
+@use "../partials/mixins";
+
+#result {
+  @include mixins.centered-block;
+  text-align: center;
+  width:100%;
+}

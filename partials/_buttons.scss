@@ -1,0 +1,35 @@
+@use "../partials/mixins";
+
+button{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 24px;
+  &:hover {
+  transition: 0.3s;
+  font-weight: bold;
+  transform: scale(1.15);
+  }
+  &:disabled {
+    background-color: grey;
+    transition: 0;
+    font-weight: bold;
+    transform: scale(0);
+  }
+}
+
+#play {
+  @include mixins.playing;
+  background-color: rgb(45, 141, 21);
+}
+
+.again {
+  @include mixins.playing;
+  background-color: rgb(71, 169, 255);
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: white;
+}

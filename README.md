@@ -1,81 +1,71 @@
 # Hangman
 
-{add test badges here, all projects you build from here on out will have tests, therefore you should have github workflow badges at the top of your repositories: [Github Workflow Badges](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge)}
-
-## Demo & Snippets
-
--   Include hosted link
--   Include images of app if CLI or Client App
-
----
-
 ## Requirements / Purpose
 
--   MVP
--   purpose of project
--   stack used and why
+-   MVP:
+
+> A game should start with a word being randomly selected.
+> A representation of the word made up of underscore (_) characters should display on the screen.
+> Create a user interface made up of buttons representing all 26 letters of the alphabet.
+> Clicking a button should register its letter as a 'guess'
+> If the letter clicked is in the word each underscore corresponding to that letter should be replaced with the letter.
+> If the letter is not in the word, an additional element to the hangman diagram should be added.
+> The game should keep track of which letters have been 'guessed' already.
+> The game should provide a win or loss message depending on the outcome
+> There should be some functionality to play again.
+
+-   Purpose of project: 2nd Nology project, consolidation of Javascript concepts
+-   JavaScript, SCSS/Sass, HTML
 
 ---
 
 ## Build Steps
 
--   how to build / run project
--   use proper code snippets if there are any commands to run
+-  n/a
 
 ---
 
 ## Design Goals / Approach
 
--   Design goals
--   why did you implement this the way you did?
+- Aimed to do a pretty simple design, but clear and with good contrast
 
 ---
 
 ## Features
 
--   What features does the project have?
--   list them...
+- Disapearing keys for the keyboard once clicked, so it's clear which letters are still available to guess
+- Image for the hangman draws a strike each time you guess a letter incorrectly
+- Replay button available at the end of each game
 
 ---
 
 ## Known issues
 
--   Remaining bugs, things that have been left unfixed
--   Features that are buggy / flimsy
+-   The hangman image is pretty jumpy from how I implemented the image updating
 
 ---
 
 ## Future Goals
 
--   What are the immediate features you'd add given more time
+- Input via keyboard, as well as the keyboard buttons
 
 ---
 
 ## Change logs
 
--   Write a paragraph labelled with the date every day you work on the project to discuss what you've done for the say. Be specific about the changes that have happened for that day.
-
-### 13/02/2022 - {Theme of changes if applicable}
-
--   Extended the expiry time of JWT tokens on the backend
--   Added users to cohort response payload
--   Centralized API base URL on frontend using the proxy `package.json` property
+- n/a
 
 ---
 
 ## What did you struggle with?
 
--   What? Why? How?
+- Assigning a correctly guessed letter the the corresponding display box was a bit of a challenge, but once that was out of the way things became easier
+- I'm not fully satisfied with the image display/updating
+- I struggled with the modules implementation, I was started my main js file and then tried to split portions off, which made it harder to split it off without breaking the existing code
 
 ---
 
-## Licensing Details
-
--   What type of license are you releasing this under?
-
----
 
 ## Further details, related projects, reimplementations
 
--   Is this project a reimplementation for something you've done in the past? if so explain it and link it here.
--   If it's an API, is there a client app that works with this project? link it
+-  n/a

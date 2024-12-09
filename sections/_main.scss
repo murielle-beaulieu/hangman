@@ -1,0 +1,12 @@
+@use "../partials/mixins";
+
+main {
+  @include mixins.centered-block;
+  height: 600px;
+  width: 100%;
+}
+
+#start-game {
+  width: 100%;
+  @include mixins.centered-flex;
+}

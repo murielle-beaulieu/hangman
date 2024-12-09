@@ -1,0 +1,18 @@
+@mixin centered-block {
+  display: block;
+  justify-content: center;
+  align-content: center;
+}
+
+@mixin centered-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin playing {
+  font-size: 16px;
+  padding: 16px 24px;
+  border-radius: 10%;
+  border-style: none;
+}

@@ -200,22 +200,3 @@ export const words = [
   "rugby",
   "volleyball"
 ];
-
-const playingWord = words[Math.round(Math.random() * 200)];
-
-
-export const randomWord = () => {
-  const hangword = document.getElementById("hangWord");
-
-   for(let i = 0; i < playingWord.length; i++) {
-    let letterDiv = document.createElement("div");
-    let placeholder = document.createElement("p")
-    letterDiv.classList.add("hangLetter");
-
-    hangword.appendChild(letterDiv);
-    letterDiv.appendChild(placeholder);
-
-    console.log("hurray!");
-   };
-   const playingArr = playingWord.split("");
-  };
